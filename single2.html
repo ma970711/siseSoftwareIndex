@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>软件系与游戏系足球实力对战</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<script src="js/jquery.min.js"> </script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+<body onload="init()">
+<div class="header">
+<div class="header-nav">
+	<div class="container">
+		<div class="logo">
+			<img  src="images/logo2.jpg" width="405" height="55"></img></canvas>
+		</div>
+		<div class="navigation">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+					  </button>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li class="active"><a href="主页.html">主页 <span class="sr-only">(current)</span></a></li>
+						<li><a href="http://my.scse.com.cn/">学生信息系统</a></li>
+						
+						<li><a href="blog.html">系别新闻</a></li>
+						<li><a href="gallery.html">华软视频</a></li>
+						<li><a href="contact.html">建议墙</a></li>
+						<li><a href="about.html">关于此系</a></li>
+			  <div class="clearfix"> </div>
+			</div>
+		</nav>
+	</div>
+	</div>
+	</div>
+</div>
+			  
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 
+<div class="banner banner5">
+</div>	
+<!--inner-page-about-->
+<div class="single w3layouts-agileits">
+	<div class="container">
+		<h3>软件系与游戏系足球实力对战</h3>
+				<div class="single wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+					<div class="blog-to1 service_info">		
+					
+						<img class="img-responsive sin-on" src="images/news2.JPG" alt="" />
+							<div class="blog-top">
+							<div class="blog-left">
+								<b>17</b>
+								<span>5月</span>
+							</div>
+							<div class="top-blog">
+								<a class="fast" href="#">继上次“华软杯”足球赛软件工程系对战管理系后，5月7日，软件工程系与游戏系于足球场开战。 </a>
+								<p>发布者 <a href="#">软件工程系</a> <a href="#"></a> | <a href="#">1 评论</a></p> 
+								<p class="sed">比赛正式开始，由我系队员开球。我方队员开局以沉稳的队式，慢慢去推进对方领场，期间多次攻入对方禁区，足球以微小的距离擦过球门。面对对方的激烈猛攻，虽然我方队员与对方队员实力相当，但是在我方队员默契配合，成功防守。</p> 
+									 <p> 一场“龙争虎斗”的比赛，全场活跃不止，双方互不相让，充满斗志，旗鼓相当。比赛最终以0:0结束，双方平局。</p>
+						<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+					</div>
+					</div>		
+		<div class="single-middle w3l-agileits">
+			
+			<h3>1 评论</h3>
+				
+				  
+				
+				<div class="media">
+				  <div class="media-left">
+					<a href="#">
+					  <img class="media-object" src="images/co.png" alt="">
+					</a>
+				  </div>
+				  <div class="media-body">
+					<h4 class="media-heading"><a href="#">会飞的小猪</a></h4>
+						<p>软件系是最棒的!!</p>
+				  </div>
+				</div>
+				<table id="datatable" border="1"></table>
+	            <p id="msg"></p>
+			<div class="clearfix"> </div>
+		</div>
+		
+		<div class="single-bottom wthree-agileits">
+
+			<h3>发布评论</h3><table>
+				<form action="#" method="post">	
+						<div class="col-md-4 comment">
+						<input type="text"  placeholder="昵称" required=" " id="name">
+						</div>
+						</form>
+						
+						<div class="clearfix"> </div>
+						<textarea  placeholder="评论内容" required="" id="memo"></textarea>
+						
+							<input type="submit" value="提交" onclick="saveDate()">
+						
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+		 window.onload=function(){
+var o_canvas=document.querySelector("#canvas");
+var o_canvas_2d=o_canvas.getContext("2d");
+console.log(o_canvas_2d);
+var o_img=new Image()
+o_img.src="images/logo2.jpg";
+
+o_img.onload=function(){
+o_canvas_2d.drawImage(o_img,0,0);
+}
+}
+var datatable = null;
+	var db = openDatabase("MyData","","My Data",1024*100);
+
+	function init(){
+		datatable = document.getElementById("datatable");
+		showAllDate();
+	}
+
+	function removeAll(){
+		for(var i = datatable.childNodes.length-1;i>=0;i--){
+			datatable.removeChild(datatable.childNodes[i]);
+		}
+		var tr = document.createElement("tr");
+		var th1 = document.createElement("th");
+		var th2 = document.createElement("th");
+		var th3 = document.createElement("th");
+		th1.innerText = "姓名";
+		th2.innerText = "留言";
+		th3.innerText = "时间";
+		tr.appendChild(th1);
+		tr.appendChild(th2);
+		tr.appendChild(th3);
+		datatable.appendChild(tr);
+	}
+
+	function showData(row){
+		var tr = document.createElement("tr");
+		var td1 = document.createElement("td");
+		td1.innerText = row.name;
+		var td2 = document.createElement("td");
+		td2.innerText = row.memo;
+		var td3 = document.createElement("td");
+		var t = new Date();
+		t.setTime(row.time);
+		td3.innerText = t.toLocaleString();
+		tr.appendChild(td1);
+		tr.appendChild(td2);
+		tr.appendChild(td3);
+		datatable.appendChild(tr);
+	}
+
+	function showAllDate(){
+		db.transaction(function(tx){
+			tx.executeSql("create table if not exists MsgDate(name text,memo text,time integer)",[]);
+			tx.executeSql("select * from MsgDate",[],function(tx,rs){
+				removeAll();
+				for(var i = 0;i<rs.rows.length;i++){
+					showData(rs.rows.item(i));
+				}
+			});
+		})
+	}
+
+	function addDate(name,message,time){
+		db.transaction(function(tx){
+			tx.executeSql("insert into MsgDate values(?,?,?)",[name,message,time],function(tx,rs){
+				alert("成功");
+			},function(tx,error){
+				alert(error.source+"::"+error.message);}
+			);
+		})
+	}
+
+	function saveDate(){
+		var name = document.getElementById("name").value;
+		var memo = document.getElementById("memo").value;
+		var time = new Date().getTime();
+		addDate(name,memo,time);
+		showAllDate();
+	}
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>

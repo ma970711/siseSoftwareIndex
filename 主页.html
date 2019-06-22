@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>主页</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<script src="js/jquery.min.js"> </script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+
+
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+</head>
+<body>
+
+<div class="header">
+
+<div class="header-nav">
+<!-- 这是利用canvas画布画出来的logo -->
+	<div class="container">
+		<div class="logo">
+			
+			<canvas id="myCanvas"></canvas>
+		</div>
+<!-- logo结束处 -->
+		<div class="navigation">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+					  </button>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">主页 <span class="sr-only">(current)</span></a></li>
+						
+								
+					    <li><a href="maps.html">定位</a></li>
+						
+						<li><a href="blog.html">系别新闻</a></li>
+						<li><a href="contact.html">建议墙</a></li>
+						<li><a href="about.html">关于此系</a></li>
+						
+					  </ul>
+			  <div class="clearfix"> </div>
+			</div>
+		</nav>
+	</div>
+	</div>
+	</div>
+</div>
+			  
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 
+<div class="banner">
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+<div class="slider">
+	
+		   <div class="container">
+			  <ul class="rslides" id="slider">
+				 <li>	          
+					<div class="banner-info">
+						<h3>广州大学</h3>
+						<p><span style="color:red;"><strong>华软软件学院</strong></p></span>
+					</div>
+				 </li>
+				 <li>	          
+					 <div class="banner-info">
+						<h3>软件工程系</h3>
+						<p><span style="color:red;"><strong>广州大学华软软件学院王牌专业</strong></p></span>
+					</div>
+				 </li>
+				 <li>	          
+					 <div class="banner-info">
+						<h3>广州大学</h3>
+					<p>华软软件学院</p>
+					</div>
+				 </li>
+			  </ul>
+		  </div>
+</div>
+
+
+</div>	
+
+<div class="banner-bottom-strip-w3ls-agile">
+	<div class="container">
+		<h3>关于我们的学校</h3>
+		<p>广州大学华软软件学院（简称华软学院）成立于2002年，创建之初是由广州大学和社会力量合作举办的民办二级学院，2006年经国家教育部批准确认为实施本科学历教育的全日制普通高等学校独立学院。华软学院由广州大学和广州盈和投资管理有限公司合作举办，是全国独立学院中学科专业特色鲜明的IT类专业院校，是国家发展和改革委员会国际合作中心合作示范学院，是广东省和广州市两级国际服务外包人才培训机构，经广东省民政厅评定为首批5A级社会组织。学院坐落在享有“北回归线上的明珠”美誉的从化经济开发区，即将开通的地铁14号线太平站出口旁，交通便利。华软校园景色秀美、环境怡人，一渠两湖布局雅致，丝木棉花绽放瑰伟，是莘莘学子读书治学的理想之所。</p>
+	</div>
+</div>	
+<div class="welcome-wthree-agileinfo">
+	<div class="container">
+		<h3>欢迎！</h3>
+		<p>下图将为你呈现出我们华软的风景！</p>
+	</div>
+</div>
+
+<div class="work w3layouts-agileits">
+	<div class="container">
+		<div class="work-main">
+			   <div class="col-md-6 work-wrapper">		
+							<a href="images/t1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="华软丝木棉节">
+						     <img src="images/t1.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i> </h4>
+						  		</div></a>
+						  									<a href="images/t3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="华软丝木棉节">
+						     <img src="images/t3.jpg" alt="" class="img-responsive"><div class="b-wrapper1"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>
+						  		</div></a>
+                         
+			   </div>
+			   <div class="col-md-6 work-wrapper">		
+							<a href="images/t2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="华软丝木棉节">
+						     <img src="images/t2.jpg" alt="" class="img-responsive"><div class="b-wrapper"><h4 class="b-animate b-from-left    b-delay03"><i class="fa fa-search" aria-hidden="true"></i></h4>
+						  		</div></a>
+						  					   <div class="work wrk1">		
+                         <div class="work-details wrk">
+					   	  <h3><i class="glyphicon glyphicon-chevron-up"> </i>丝木棉节</h3>
+					   	 <p>每年冬季，百花凋零，唯独丝木棉怒放，广州大学华软软件学院成为花的海洋，也成为冬季南方高校中最美的花园校园。华软校园到处可见粉嫩、浅粉和洁白的三色丝木棉花，远远看去，一片花海，质朴和美丽。</p>
+					   </div>
+			   </div>
+
+
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+</script>
+
+<div class="container">
+<div class="grid wthree-agileinfo">
+	<h4>华软特色</h4>
+					<figure class="effect-julia">
+						<img src="images/2-3.jpg" alt="img21"/>
+						<figcaption>
+							
+							
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-julia">
+						<img src="images/4-5.jpg" alt="img22"/>
+						<figcaption>
+							
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					
+					<figure class="effect-julia">
+						<img src="images/6-7.jpg" alt="img21"/>
+						<figcaption>
+							
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					
+					<div class="clearfix"> </div>
+					</div>
+</div>
+
+
+
+<script type="text/javascript">
+		$(document).ready(function() {
+
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+function draw(){
+       var myCanvas = document.getElementById("myCanvas");  
+       var context = myCanvas.getContext("2d"); 
+       context.beginPath();
+       context.lineWidth = 0.5;  
+       context.fillStyle="#000099";
+       context.strokeStyle = "#0000cc";  
+       context.arc(75,75,50,0.89*Math.PI,1.8*Math.PI,false); 
+       
+       context.arc(106,54,13.3,1.9*Math.PI,0.85*Math.PI,false); 
+       context.arc(63,80,37,1.8*Math.PI,2.9*Math.PI,true);  
+       context.fill();
+       context.stroke();
+       context.closePath();
+       context.beginPath();
+       context.fillStyle="#ff9900";
+       context.strokeStyle = "#ff9900";
+       
+       context.arc(75,72,55,1.17*Math.PI,2.80*Math.PI,true); 
+       context.arc(108,104,77,0.99*Math.PI,2.9*Math.PI,true); 
+       context.arc(70,83,58,0.7*Math.PI,1.23*Math.PI,false); 
+       context.fill();
+       context.stroke();
+       context.closePath();
+       context.beginPath();
+       context.fillStyle="#ff5809";
+       context.strokeStyle = "#ff5809";
+       context.arc(60,76,66,0.66*Math.PI,1.95*Math.PI,true); 
+       context.arc(105,55,20,0.08*Math.PI,0.6*Math.PI,false); 
+       context.arc(21,55,80,0.08*Math.PI,0.47*Math.PI,false); 
+       context.fill();
+       context.stroke();
+       context.closePath();
+}
+window.addEventListener("load", draw, true); 
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!----> 
+</body>
+</html>
